@@ -2,7 +2,7 @@
 
 _Based on the excellent original work from https://github.com/timjong93/lovelace-wtw._
 
-Use https://github.com/LukasdeBoer/esp8266-whr930-mqtt to connect your WHR930 to Homeassistant and then use this lovelace card to visualize your data!
+Use https://shop.svenar.nl/product/?p=esphome_whr930 to connect your WHR930 to Homeassistant and then use this lovelace card to visualize your data!
 
 ![Image](https://raw.githubusercontent.com/christiaangoossens/lovelace-wtw/master/result.png)
 
@@ -11,12 +11,13 @@ Use https://github.com/LukasdeBoer/esp8266-whr930-mqtt to connect your WHR930 to
 - Added support for installing through HACS
 - Added dark mode compatible version of the background
 - Replaced the mode indicator (fans in the middle) with just a number for better readability.
+- Added compatibility for ComfoAir Controller from Svenar (not affiliated)
 
 # Installation
 
 1. Install as a custom repository using HACS
 
-[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=christiaangoossens&repository=lovelace-wtw&category=Plugin)
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=freekers&repository=lovelace-wtw&category=Plugin)
 
 2. Download the version of your choice.
 3. Add a card of type `type: 'custom:wtw-card'` (YAML) or 'WTW Card' (UI picker) to your dashboard.
