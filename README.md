@@ -4,7 +4,7 @@ _Based on the excellent original work from https://github.com/timjong93/lovelace
 
 Use https://shop.svenar.nl/product/?p=esphome_whr930 to connect your WHR930 to Homeassistant and then use this lovelace card to visualize your data!
 
-![Image](https://raw.githubusercontent.com/christiaangoossens/lovelace-wtw/master/result.png)
+![Image](https://raw.githubusercontent.com/freekers/lovelace-wtw/master/result.png)
 
 ### Changes to the original by timjong93
 
